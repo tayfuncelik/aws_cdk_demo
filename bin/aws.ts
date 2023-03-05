@@ -7,7 +7,7 @@ const app = new cdk.App();
 new CiCdAwsPipelineStack(app, 'CiCdAwsPipelineDemoStack', {
   env: {
     account: '175560813486',
-    region: 'us-east-1',
+    region: 'eu-east-1',
   }
 });
 
