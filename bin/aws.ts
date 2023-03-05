@@ -6,7 +6,7 @@ import { CiCdAwsPipelineStack } from '../lib/ci-cd-aws-pipeline-stack';
 const app = new cdk.App();
 new CiCdAwsPipelineStack(app, 'CiCdAwsPipelineDemoStack', {
   env: {
-    account: '755314965794',
+    account: '175560813486',
     region: 'us-east-1',
   }
 });
