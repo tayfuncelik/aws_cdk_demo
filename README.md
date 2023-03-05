@@ -33,3 +33,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
   *you can go to "Events"and change preferences and you can show/hide necessary colums to be able to see Type,Status...etc
 
 5- open "CodePipeline" by using search box and you can see all changes regarding to deployment by CDK
+
+
+npx cdk bootstrap aws://175560813486/eu-east-1 --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://175560813486/eu-east-1
+
+
+npx cdk bootstrap aws://<YOUR_ACCONT_ID>/<YOUR_REGION> --cloudformation-execution-policies arn:aws:iam::aws:policy/AdministratorAccess aws://<YOUR_AWS_ACCONT_ID>/<YOUR_REGION>
